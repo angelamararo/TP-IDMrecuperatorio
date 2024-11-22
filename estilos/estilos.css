@@ -273,7 +273,7 @@ footer h3{
     }
     #Autor{
         background-image: url(../img/autor.jpg);
-        width: 300px;
+        width: 250px;
         height: 300px;
         background-size: cover;
         border-radius: 50%;
@@ -346,7 +346,7 @@ footer h3{
         border-radius: 50%;
     }
     #Autor{
-        max-width: 450px;
+        max-width: 250px;
         border: 5px double #08306b;
     }
     #Autor:hover{
