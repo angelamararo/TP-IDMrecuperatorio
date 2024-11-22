@@ -155,6 +155,9 @@ p{
     margin-top: 30px;
     margin-bottom: 20px;
 }
+aside p{
+    text-align: center;
+}
 #contenedorForm{
     width: 70%;
     margin: 0 auto;
@@ -217,14 +220,13 @@ footer h3{
     h1{
         margin: auto;
     }
-    h2, h3{
+    h2{
         background-color: #08306b;
         text-align: center;
         margin-bottom: 10px;
         width: 100%;
     }
     h3, h4{
-        text-shadow: 1px 1px 2px black;
         margin-top: 20px;
     }
     #poster, #serie, #poster2{
@@ -278,6 +280,11 @@ footer h3{
         margin: 0 auto;
         border: 2px solid #08306b;
         padding: 20px;
+        margin-top: 20px;
+    }
+    footer li{
+        color: black;
+        text-shadow: 1px 1px #08306b;
     }
 
  /*PC*/
@@ -309,14 +316,8 @@ footer h3{
         display: block; 
         margin: auto;
     }
-    #poster #poster2{
-        background-color: #08306b;
-        border: 2px solid black;
-        border-radius: 50%;
-        background-size: cover;
-        margin: 0 auto;
-        border: 2px solid #08306b;
-        padding: 20px;
+    #poster, #serie, #poster2{
+        max-width: 600px; 
     }
     aside p{
         text-align: center;
@@ -354,6 +355,8 @@ footer h3{
     footer ul {
         background : linear-gradient(#144c83, #77bee4);
         margin-top : 20px;
-        margin-bottom : 20px;
         color : black;
+    }
+    footer h3{
+        background-color: #08306b;
     }
